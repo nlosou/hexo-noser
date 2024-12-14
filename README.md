@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">一款 Material Design 风格的主题</p>
-<p align="center">来源与hexo-fluid项目</p>
+<p align="center">基于hexo-fluid项目修改</p>
 
 
 #### 试着修改一些东西
