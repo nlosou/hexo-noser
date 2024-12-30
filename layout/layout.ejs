@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
-<%- partial('_partial/head') %>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
 <body>
-  <div id="container">
-    <div id="wrap">
-      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
-      <div class="outer">
-        <section id="main"><%- body %></section>
-        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
-          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
-        <% } %>
-      </div>
-      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
-    </div>
-    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
-    <%- partial('_partial/after-footer') %>
-  </div>
+    <h1 href="https://www.runoob.com">我的第一个标题</h1>
+    <h1>这是标题 1</h1>
+<h2>这是标题 2</h2>
+<h3>这是标题 3</h3>
+<h4>这是标题 4</h4>
+<h5>这是标题 5</h5>
+<h6>这是标题 6</h6>
+<button>
+<a href="https://www.runoob.com">这是一个链接</a>
+
+</button style="color: red;">
+<div id="header">This is a header</div>
+<p class="text-muted">This is a paragraph.</p>
+<span style="color: red;">This text is red.</span>
+<br/>
+<img src="1385776.jpg" width="258" height="39" />
+<hr>
+<img src="logo.png" alt="Company Logo">
+<hr>
+<input type="text" value="Default text" >
+<hr>
+<a href="https://www.example.com" target="_blank" rel="noopener">Open in new tab</a>
+<hr>
+<input type="password" name="password">
+<hr>
+<input type="text" placeholder="Enter your name">
+<hr>
+<textarea placeholder="请输入"></textarea>
 </body>
 </html>
