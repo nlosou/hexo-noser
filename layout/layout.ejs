@@ -140,7 +140,43 @@
 
 
 <iframe src="https://www.yangmutea.email/" width="200" height="200" frameborder="0"></iframe>
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+<p><a href="https://www.runoob.com" target="iframe_a" rel="noopener">RUNOOB.COM</a></p>
+
+
+
+
+
+<script>
+document.write("Hello World!")
+</script> 
   </div>
+
+<br>
+
+<p id="demo"></p>
+JavaScript 可以触发事件，就像按钮点击。</p>
+
+<script>
+function myFunction()
+{
+	document.getElementById("demo").innerHTML="Hello JavaScript!";
+}
+</script>
+
+<button type="button" onclick="myFunction()">点我</button>
+
+<br>
+<script>
+function myFunction()
+{
+	x=document.getElementById("demo") // 找到元素
+	x.style.color="#ff0000";          // 改变样式
+}
+</script>
+<button type="button" onclick="myFunction()">点击这里</button>
+
+
   <div id="footer">
     版权 © runoob.com
   </div>
