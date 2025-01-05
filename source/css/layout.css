@@ -7,7 +7,7 @@
   }
   /* 设置 header 和 footer 的样式 */
   #header, #footer {
-    background-color: #FFA500;
+    background-color: #6600ff;
     text-align: center;
     width: 100%; /* header 和 footer 宽度为100% */
   }
@@ -48,4 +48,8 @@
 }
 .big{
   font-size: 300%;
+}
+
+body {
+  background-color: rgb(186, 173, 230);
 }
