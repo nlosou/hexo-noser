@@ -1,0 +1,51 @@
+ /* 设置容器为 flex 容器 */
+ #container {
+    display: flex;
+    flex-wrap: wrap; /* 允许子元素换行 */
+    width: 100%; /* 容器宽度为100%，自适应屏幕宽度 */
+    overflow: auto; /* 如果内容超出，显示滚动条 */
+  }
+  /* 设置 header 和 footer 的样式 */
+  #header, #footer {
+    background-color: #FFA500;
+    text-align: center;
+    width: 100%; /* header 和 footer 宽度为100% */
+  }
+  /* 设置 menu 和 content 的样式 */
+  #menu, #content {
+    background-color: #FFD700;
+    height: 200px; /* 固定高度 */
+  }
+  /* 设置 menu 的样式 */
+  #menu {
+    background-color: #FFD700;
+    width: 100%; /* menu 宽度为100%，在小屏幕上占据整行 */
+  }
+  /* 设置 content 的样式 */
+  #content {
+    background-color: #EEEEEE;
+    flex-grow: 1; /* content 占据剩余空间 */
+    /*overflow: auto;  如果内容超出，显示滚动条 */
+    height: auto;
+  }
+  /* 为 footer 设置清除浮动 */
+  #footer {
+    clear: both;
+  }
+  p {
+  color: rgb(13, 0, 255);
+  /*text-align: center;*/
+} 
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+.big{
+  font-size: 300%;
+}
