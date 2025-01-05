@@ -43,9 +43,24 @@
     clear: both;
   }
   p {
-  color: red;
-  text-align: center;
+  color: rgb(13, 0, 255);
+  /*text-align: center;*/
 } 
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+.big{
+  font-size: 300%;
+}
+
+
 </style>
 </head>
 <body>
@@ -53,54 +68,27 @@
   <div id="header">
     <h1 style="margin-bottom:0;">测试各种东西</h1>
   </div>
-  <div id="content">
-    <!-- 内容区域 -->
-       <h2>表单</h2>
+<div id="content">
+  
+<p>每个段落都会受到样式的影响。</p>
+<p id="para1">我也是！</p>
+<p>还有我！</p>
+<p class="center">hnvdfhnvfdvidfbvni</p>
+<p class="center big">本段将是红色、居中对齐，并使用大字体。</p> 
 
 
 
 
-<iframe src="https://www.yangmutea.email/" width="200" height="200" frameborder="0"></iframe>
-<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
-<p><a href="https://www.runoob.com" target="iframe_a" rel="noopener">RUNOOB.COM</a></p>
 
 
 
 
 
-<script>
-document.write("Hello World!")
-</script> 
-  </div>
+</div>
 
-<br>
-
-<p id="demo">
-JavaScript 可以触发事件，就像按钮点击。</p>
-
-<script>
-function myFunction()
-{
-	document.getElementById("demo").innerHTML="Hello JavaScript!";
-}
-</script>
-
-<button type="button" onclick="myFunction()">点我</button>
-
-<br>
-<script>
-function myFunction()
-{
-	x=document.getElementById("demo") // 找到元素
-	x.style.color="#ff0000";          // 改变样式
-}
-</script>
-<button type="button" onclick="myFunction()">点击这里</button>
-
-
-  <div id="footer">
+<div id="footer">
     版权 © runoob.com
-  </div>
+</div>
 </div>
 </body>
 </html>
