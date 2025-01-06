@@ -77,3 +77,18 @@ body {
   border-left: 6px solid red;
   background-color: lightgrey;
 }
+#b {
+  border-bottom: 6px solid red;
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#c {
+  border: 1px solid black;
+  margin-top: 1px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
