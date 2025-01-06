@@ -71,3 +71,9 @@ body {
 .none {border-style: none;}
 .hidden {border-style: hidden;}
 .mix {border-style: dotted dashed solid double;}
+
+
+#a {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
