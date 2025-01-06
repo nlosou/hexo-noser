@@ -10,6 +10,7 @@
     background-color: #6600ff;
     text-align: center;
     width: 100%; /* header 和 footer 宽度为100% */
+    opacity: 0.5;
   }
   /* 设置 menu 和 content 的样式 */
   #menu, #content {
