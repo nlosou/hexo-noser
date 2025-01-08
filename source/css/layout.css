@@ -1,115 +1,21 @@
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
 
- #container {
-    display: flex;
-    flex-wrap: wrap; /* 允许子元素换行 */
-    width: 100%; /* 容器宽度为100%，自适应屏幕宽度 */
-    overflow: auto; /* 如果内容超出，显示滚动条 */
-  }
-  /* 设置 header 和 footer 的样式 */
-  #header, #footer {
-    background-color: #6600ff;
-    text-align: center;
-    width: 100%; /* header 和 footer 宽度为100% */
-    opacity: 0.5;
-  }
-  /* 设置 menu 和 content 的样式 */
-  #menu, #content {
-    background-color: #FFD700;
-    height: 200px; /* 固定高度 */
-  }
-  /* 设置 menu 的样式 */
-  #menu {
-    background-color: #FFD700;
-    width: 100%; /* menu 宽度为100%，在小屏幕上占据整行 */
-  }
-  /* 设置 content 的样式 */
-  #content {
-    background-color: #EEEEEE;
-    flex-grow: 1; /* content 占据剩余空间 */
-    /*overflow: auto;  如果内容超出，显示滚动条 */
-    height: auto;
-  }
-  /* 为 footer 设置清除浮动 */
-  #footer {
-    clear: both;
-  }
-  p {
-  color: rgb(13, 0, 255);
-  /*text-align: center;*/
-} 
-
-#para1 {
+h1 {
   text-align: center;
-  color: red;
+  text-transform: uppercase;
+  color: #4CAF50;
 }
 
-.center {
-  text-align: center;
-  color: red;
-}
-.big{
-  font-size: 300%;
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
 }
 
-body {
-  background-color: rgb(186, 173, 230);
-  background-image: url(/source/img/1385776.jpg);
-}
-
-
-.dotted {
-  border-style: dotted;
-  border-width: 100px 1px;
-}
-.dashed {border-style: dashed;}
-.solid {border-style: solid;}
-.double {border-style: double;}
-.groove {border-style: groove;}
-.ridge {border-style: ridge;}
-.inset {border-style: inset;}
-.outset {border-style: outset;}
-.none {border-style: none;}
-.hidden {border-style: hidden;}
-.mix {border-style: dotted dashed solid double;}
-
-
-#a {
-  border-left: 6px solid red;
-  background-color: lightgrey;
-}
-#b {
-  border-bottom: 6px solid red;
-  background-color: lightgrey;
-  text-align: center;
-  border-radius: 20px;
-}
-
-#c {
-  border: 1px solid black;
-  margin-top: 1px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-  background-color: lightblue;
-}
-
-
-#d {
-  height: 200px;
-  width: 50%;
-  background-color: powderblue;
-}
-
-
-#e {
-  max-width: 500px;
-  height: 100px;
-  background-color: powderblue;
-}
-
-#f{
-   margin: 30px;
-  border: 1px solid black;
-  outline: 1px solid red;
-  outline-offset: 15px;
+a {
+  text-decoration: none;
+  color: #008CBA;
 }
