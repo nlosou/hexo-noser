@@ -4,9 +4,7 @@ div {
 }
 
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #4CAF50;
+  text-shadow: 2px 2px 5px blue;
 }
 
 p {
