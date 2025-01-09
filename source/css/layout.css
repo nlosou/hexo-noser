@@ -4,3 +4,10 @@ li{
 a{
   text-decoration: none;
 }
+
+span{
+  display: block;
+}
+b{
+  background-color: blue;
+}
