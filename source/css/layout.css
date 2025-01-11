@@ -1,15 +1,26 @@
-* {
-  box-sizing: border-box;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.box {
+li {
   float: left;
-  width: 33.33%;
-  padding: 50px;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: red;
 }
