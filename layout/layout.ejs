@@ -10,15 +10,16 @@
 
 </head>
 <body>
-  <h1>居中对齐元素</h1>
-
-  <p>要使块元素（例如 div）水平居中，请使用 margin: auto;</p>
+  <h1>后代选择器</h1>
+  <p>后代选择器匹配作为指定元素后代的所有元素。</p>
   
-  <div class="center">
-    <p>Hello World!</p>
+  <div>
+    <p>div 中的段落 1。</p>
+    <p>div 中的段落 2。</p>
+    <section><p>div 中的段落 3。</p></section>
   </div>
-  <div class="right">
-  <p>在我更年轻，更脆弱的岁月中，父亲给了我一些建议，从那以后我就一直在思考。</p>
-</div>
+  
+  <p>段落 4。不在 div 中。</p>
+  <p>段落 5。不在 div 中。</p>
 </body>
 </html>
