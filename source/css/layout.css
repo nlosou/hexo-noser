@@ -1,9 +1,9 @@
-p {
-  display: none;
-  background-color: yellow;
-  padding: 20px;
-}
+
 
 div:hover p {
   display: block;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
 }
