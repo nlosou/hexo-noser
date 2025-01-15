@@ -1,9 +1,8 @@
 
 
-div:hover p {
-  display: block;
-}
-p::first-letter {
-  color: #ff0000;
-  font-size: xx-large;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
