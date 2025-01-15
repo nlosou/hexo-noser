@@ -5,9 +5,12 @@ ul {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  width: 200px;
+  background-color: #f1f1f1;
   
 }
 li a{
   display: block;
   text-decoration: none;
+  width: 200px;
 }
